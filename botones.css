@@ -1,0 +1,123 @@
+.boton1{
+    
+        background-color: #4CAF50; 
+        text-align: center;
+        border-radius: 4px;
+        display: inline-block;
+        font-size:30px;
+        -webkit-transition-duration: 0.4s; /* para el efecto cuando este por encima */
+        transition-duration: 0.4s;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        
+    
+}
+ .boton1:hover {
+    background-color: #031004; /* :hover es para que cambia de aspecto el  boton cuando este sobre */
+    color: rgb(226, 223, 223);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ h1 {  color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ }
+
+ .boton2 {
+    background-color: #4CAF50;
+    border: outset;
+   
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    font-size:30px;
+    -webkit-transition-duration: 0.4s; /* para el efecto cuando este por encima */
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+    text-shadow: 1px 1px 2px black,
+ }  
+ .boton2:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+ }
+
+
+
+.btnS{
+   display: inline-block;
+   border-radius: 4px;
+   background-color: #f4511e;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+
+
+}
+.btnS:hover {
+   color: rgb(173, 20, 20);
+   text-shadow: 1px 1px 2px rgb(4, 84, 66), 0 0 25px rgb(130, 130, 235), 0 0 5px darkblue;
+
+}
+
+
+
+
+.circle {
+
+   
+background-color: red;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+
+}
+.btnP{
+   
+   border-radius: 4px;
+   background-color: #8d2505;
+   border: ridge red ;
+   color: #c8c2c2;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer; ;
+   margin: 5px;
+  
+
+
+
+}
+ .btnP:hover{
+   color: rgb(173, 20, 20);
+   text-shadow: 1px 1px 2px rgb(4, 84, 66), 0 0 25px rgb(182, 182, 188), 0 0 5px darkblue;   
+   box-shadow:1px 1px 2px rgb(4, 84, 66), 0 0 25px rgb(182, 182, 188), 0 0 5px darkblue; ;
+ }
+
+
+.btnI{
+   border-radius: 4px;
+   background-color: #8d2505;
+   border: ridge red ;
+   color: #c8c2c2;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: move;
+   margin: 5px;
+   padding: 10px;
+  
+
+}
+
+
+
